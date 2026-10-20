@@ -1,4 +1,4 @@
-#🖐️**Morse Hand is a real-time webcam application that recognizes hand gestures to enter Morse code and convert it into text.**
+# 🖐️Morse Hand is a real-time webcam application that recognizes hand gestures to enter Morse code and convert it into text.
 ---
 # 🖐️Gesture Control Guide
 
@@ -14,9 +14,9 @@ Touch your thumb to the corresponding fingertip to perform a command:
  **Requirements**
 - **Python:** `3.11` (recommended)
 - **Webcam:** Connected to your computer / WSL2
+---
 
 # Installation
-
 1. **Cloning Repository:**
    ```bash
    git clone [https://github.com/](https://github.com/)<TEN_TAI_KHOAN>/morse_hand.git
