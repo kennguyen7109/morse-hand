@@ -1,5 +1,5 @@
 # 🖐️Morse Hand is a real-time webcam application that recognizes hand gestures to enter Morse code and convert it into text.
----
+
 # 🖐️Gesture Control Guide
 
 Touch your thumb to the corresponding fingertip to perform a command:
@@ -8,13 +8,11 @@ Touch your thumb to the corresponding fingertip to perform a command:
 - **Middle finger**: Enter a dash (`-`)
 - **Ring finger**: Commit the character (if a Morse code is available) / Add a space ( ) (if the buffer is empty)
 - **Pinky**: Delete one character (Backspace)
----
 
 #🛠️**System Requirements & Installation**
  **Requirements**
 - **Python:** `3.11` (recommended)
 - **Webcam:** Connected to your computer / WSL2
----
 
 # Installation
 1. **Cloning Repository:**
