@@ -10,7 +10,8 @@ Touch your thumb to the corresponding fingertip to perform a command:
 - **Pinky**: Delete one character (Backspace)
 
 #🛠️**System Requirements & Installation**
- **Requirements**
+
+**Requirements**
 - **Python:** `3.11` (recommended)
 - **Webcam:** Connected to your computer / WSL2
 
