@@ -4,10 +4,10 @@
 
 Touch your thumb to the corresponding fingertip to perform a command:
 
-Index finger: Enter a dot (`.`) 
-Middle finger: Enter a dash (`-`)
-Ring finger: Commit the character (if a Morse code is available) / Add a space ( ) (if the buffer is empty)
-Pinky: Delete one character (Backspace)
+- **Index finger**: Enter a dot (`.`) 
+- **Middle finger**: Enter a dash (`-`)
+- **Ring finger**: Commit the character (if a Morse code is available) / Add a space ( ) (if the buffer is empty)
+- **Pinky**: Delete one character (Backspace)
 ---
 
 #🛠️**System Requirements & Installation**
