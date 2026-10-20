@@ -14,7 +14,7 @@ Touch your thumb to the corresponding fingertip to perform a command:
 - **Python:** `3.11` (recommended)
 - **Webcam:** Connected to your computer / WSL2
 
-# Installation
+**Installation**
 1. **Cloning Repository:**
    ```bash
    git clone [https://github.com/](https://github.com/)<TEN_TAI_KHOAN>/morse_hand.git
@@ -27,4 +27,28 @@ Touch your thumb to the corresponding fingertip to perform a command:
 4. **Install the dependencies:**
    ```bash
    pip install -r requirements.txt
-   
+
+# 📹 Webcam connection
+- **Method 1**: Run directly on Windows (the simplest option)
+  + If you’re running the code in Windows PowerShell or Command Prompt, OpenCV will detect the webcam automatically without any additional configuration.
+- **Method 2**: If you’re running the application in an Ubuntu environment on WSL, follow these steps to forward the webcam from Windows to WSL
+- Step 1: Open PowerShell on Windows as an administrator
+  1. List the connected USB devices:
+     ```
+     usbipd list
+  2. Attach the webcam to WSL2 (replace <BUSID> with the camera’s ID)
+     ```
+     usbipd attach --wsl --busid <BUSID>
+   + Tip: Automatically connect on future runs
+     ```
+     usbipd attach --wsl --busid <BUSID> --auto-attach
+- Step 2: Check and grant permissions in the WSL terminal.
+  + Check whether WSL has detected the camera (usually /dev/video0)
+    ```
+    ls /dev/video*
+  + Grant Python permission to access the camera device
+    ```
+    sudo chmod 666 /dev/video0
+# 🚀 Run the application
+```
+python main.py
